@@ -12,7 +12,6 @@ moment.tz.setDefault('Asia/Jerusalem');
 const { admins, jenkinsUserToSlack, slackUserToTeams, statuses, entities, slackNotifyUser, getItemTemplate } = helpers;
 const { IN_PROGRESS, ABORTED, PENDING } = statuses;
 
-const token = 'xoxb-157444359750-609003387520-W4UFD2kCeYX1gVDsVay3RMFQ'; //Bot User OAuth Access Token (SLACK_ACCESS_TOKEN)
 const TODAY = 'today';
 const EXCLUDED_DAYS = [4, 5, 6]; // for Thursday to Saturday
 const DATE_FORMAT = "YYYY-MM-DD";
