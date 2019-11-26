@@ -1,8 +1,6 @@
 const axios = require('axios');
 const _ = require('lodash');
 
-const slackAppToken = 'xoxp-157444359750-220611225393-551922841591-e90d2cd903b44bdc4190f29806a49801'; //OAuth Access Token
-
 const releaseTypes = {
   NORMAL: 'Normal',
 };
